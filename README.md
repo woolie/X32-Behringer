@@ -35,14 +35,6 @@ The basic MinGW-32 environment and tools are sufficient for these programs as th
 
 Eclipse also sets up all necessary environment options for basic C programming; When creating projects, select the MinGW suite as compile suite. Each project will have to be edited to include link libraries as mentioned above. The compile line and options are directly managed by Eclispe using the tools and environment variables set from your PC, and are straight forward. 
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
 For example, the compile lines for X32Reaper in Debug mode are listed below (entirely managed by/from Eclipse on a single button click):
 ```09:16:17 **** Incremental Build of configuration Debug for project X32Reaper ****
 Info: Internal Builder is used for build
